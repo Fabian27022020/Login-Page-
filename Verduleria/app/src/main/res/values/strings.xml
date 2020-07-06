@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Verduleria</string>
+    <string name="verduleria">Verduleria</string>
+    <string name="ir_a_listado_de_productos">Ir a listado De Productos</string>
+    <string name="promociones">Promociones</string>
+    <string name="volver">Volver</string>
+    <string name="volver2">Volver2</string>
+    <string name="nombre_verdura">nombre Verdura</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="numero">Numero</string>
+
+</resources>

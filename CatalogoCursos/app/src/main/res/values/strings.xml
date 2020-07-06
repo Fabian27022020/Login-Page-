@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CatalogoCursos</string>
+    <string name="ir_a_lista">Ir a Lista</string>
+    <string name="ir_a_componente">ir a componente</string>
+    <string name="volver">Volver</string>
+    <string name="titulo_juego">titulo_juego</string>
+    <string name="curso">Curso</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejercicio Listas</string>
+    <string name="Ir_a_lista">ir a lista</string>
+    <string name="ir_a_login">Ir a Login</string>
+    <string name="Titulocontacto">titulo_contacto</string>
+</resources>

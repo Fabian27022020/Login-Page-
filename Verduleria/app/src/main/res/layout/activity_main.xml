@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvVerduleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verduleria"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIrAListadoDeProductos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/ir_a_listado_de_productos"
+        app:layout_constraintEnd_toEndOf="@+id/tvVerduleria"
+        app:layout_constraintStart_toStartOf="@+id/tvVerduleria"
+        app:layout_constraintTop_toBottomOf="@+id/tvVerduleria" />
+
+    <Button
+        android:id="@+id/btnPromociones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/promociones"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnIrAListadoDeProductos"
+        app:layout_constraintStart_toStartOf="@+id/btnIrAListadoDeProductos"
+        app:layout_constraintTop_toBottomOf="@+id/btnIrAListadoDeProductos" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
